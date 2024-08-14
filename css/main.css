@@ -1,0 +1,60 @@
+nav {
+  background-color: rgb(43, 43, 43);
+  width: 80rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.2rem 3.2rem;
+  height: 6.25rem;
+}
+
+.nav-logo__img {
+  width: 16rem;
+  height: 2rem;
+}
+
+.nav-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title a {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0rem 2rem;
+}
+
+.nav-button {
+  width: 9.5rem;
+  height: 3.75rem;
+  border-radius: 20px;
+  background-color: rgb(162, 89, 255);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 8px;
+}
+.nav-button a {
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0rem auto;
+}/*# sourceMappingURL=main.css.map */
