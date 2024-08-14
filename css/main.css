@@ -53,6 +53,34 @@ nav {
   display: none;
 }
 
+@media only screen and (max-width: 52.12rem) {
+  .navbar {
+    padding: 15px 50px;
+  }
+  .nav-logo__img {
+    width: 11.41rem;
+  }
+  .nav-titles {
+    display: none;
+  }
+  .nav-menu {
+    display: contents;
+    margin-left: 3.12rem;
+  }
+}
+@media only screen and (max-width: 23.44rem) {
+  .navbar {
+    padding: 15px 30px;
+  }
+  .nav-logo__img {
+    width: 11.41rem;
+  }
+  .nav-menu {
+    display: contents;
+    margin-left: 3.12rem;
+    width: 1.25rem;
+  }
+}
 .container {
   width: 100%;
   max-width: 80rem;
