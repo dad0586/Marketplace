@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .flex-container {
+            display: flex;
+        }
+        
+        .item {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 5px;
+        }
+
+        /* Changing order of the items */
+        .item1 {
+            order: 3; /* This will appear last */
+        }
+        
+        .item2 {
+            order: 1; /* This will appear first */
+        }
+        
+        .item3 {
+            order: 2; /* This will appear second */
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item item1">
+            <h1>
+                salom
+            </h1>
+            <p>
+                yana salom
+            </p>
+            <div class="item4">
+                <h1>
+                    3 salom
+                </h1>
+            </div>
+        </div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+    </div>
+</body>
+</html>

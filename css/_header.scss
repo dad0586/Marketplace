@@ -1,0 +1,151 @@
+header {
+    background-color: rgba(43, 43, 43, 1);
+    width: 100%;
+    max-width: 80rem;
+    margin: 0rem auto;
+}
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3rem 9rem;
+    .header-paragraph {
+        width: 31.9rem;
+        height: 21.7rem;
+        h1{
+            width: 27.9rem;
+            height: 13.9rem;
+            margin: 0rem;
+            font-family: Work Sans;
+            font-size: 4.2rem;
+            font-weight: 600;
+            line-height: 4.6rem;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+        }
+        p{
+            width: 25.9rem;
+            height: 6.6rem;
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 35.2px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+    .header-photo {
+        width: 31.9rem;
+    }
+    .header-statistics {
+        width: 31.9rem;
+        margin-top: -8.5rem;
+
+
+        .header-button {
+            width: 14rem;
+            height: 3.75rem;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.75rem;
+            background-color: rgba(162, 89, 255, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+    .header-statistic {
+        width: 31.9rem;
+        height: 4.8rem;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+    .statistic {
+        h3 {
+            font-family: Space Mono;
+            font-size: 1.75rem;
+            font-weight: 700;
+            line-height: 2.45rem;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+        }  
+        h4 {
+            font-family: Work Sans;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 2.4rem;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+            margin-top: -1.5rem;
+        }  
+    }
+}
+
+@media only screen and (max-width:52.12rem){
+    header {
+        max-width: 52.12rem;
+    }
+    .header-section{
+        padding: 2rem 3rem;
+
+        .header-paragraph {
+            width: 19rem;
+            height: 14rem;
+
+            h1 {
+                font-size: 2.4rem; 
+                width: 19.5rem;
+                line-height: 3rem;
+            }
+            p{
+                font-size: 1.4rem;
+                width: 23.5rem;
+                margin-top: -4rem;
+                line-height: 1.5rem;
+            }
+        }
+    }
+    .header-photo {
+        img {
+            width: 20.6rem;
+            margin-left: 6rem;
+        }
+    }
+    .header-statistics {
+        margin-top: -5rem;
+
+        .header-button {
+            margin-top: 4rem;
+        }
+
+        .header-statistic {
+            margin-top: 1.5rem;
+        }
+    }
+    
+}
+/* 
+@media only screen and (max-width: 23.44rem){
+    header {
+        max-width: 23.44rem;
+    }
+    .header-section {
+        padding: 1rem 3rem;
+    }
+    .header-paragraph {
+        width: 20.6rem;
+        height: 14rem;
+
+        h1 {
+            font-size: 2.4rem; 
+        }
+        p{
+            font-size: 1.4rem;
+        }
+    }
+
+ }
+*/
